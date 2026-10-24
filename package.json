@@ -1,3 +1,35 @@
-{"name":"vaani","private":true,"type":"module","scripts":{"dev":"concurrently -n api,web \"node server/index.js\" \"vite\"","build":"vite build"},
-"dependencies":{"cors":"^2.8.5","dotenv":"^16.4.5","express":"^4.19.2","framer-motion":"^11.2.0","jspdf":"^2.5.1","react":"^18.3.1","react-dom":"^18.3.1","tesseract.js":"^5.1.0","zustand":"^4.5.2"},
-"devDependencies":{"@types/react":"^18.3.3","@types/react-dom":"^18.3.0","@vitejs/plugin-react":"^4.3.1","autoprefixer":"^10.4.19","concurrently":"^8.2.2","postcss":"^8.4.38","tailwindcss":"^3.4.4","typescript":"^5.5.3","vite":"^5.3.1"}}
+{
+ "name": "vaani",
+ "private": true,
+ "type": "module",
+ "scripts": {
+  "dev": "concurrently -n api,web \"node server/index.js\" \"vite\"",
+  "build": "vite build",
+  "start": "node server/index.js"
+ },
+ "dependencies": {
+  "@types/react": "^18.3.3",
+  "@types/react-dom": "^18.3.0",
+  "@vitejs/plugin-react": "^4.3.1",
+  "autoprefixer": "^10.4.19",
+  "cors": "^2.8.5",
+  "dotenv": "^16.4.5",
+  "express": "^4.19.2",
+  "framer-motion": "^11.2.0",
+  "jspdf": "^2.5.1",
+  "postcss": "^8.4.38",
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "tailwindcss": "^3.4.4",
+  "tesseract.js": "^5.1.0",
+  "typescript": "^5.5.3",
+  "vite": "^5.3.1",
+  "zustand": "^4.5.2"
+ },
+ "devDependencies": {
+  "concurrently": "^8.2.2"
+ },
+ "engines": {
+  "node": ">=18"
+ }
+}
