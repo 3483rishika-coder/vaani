@@ -1,0 +1,1 @@
+module.exports={content:['./index.html','./src/**/*.{ts,tsx}'],theme:{extend:{fontFamily:{sans:['"Plus Jakarta Sans"','Inter','sans-serif']},colors:{ink:'#070B1A',violet:'#8B5CF6',volt:'#3B82F6',teal:'#2DD4BF',amber:'#F59E0B'}}}}

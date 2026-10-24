@@ -1,0 +1,18 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-ink text-slate-100 font-sans text-base antialiased}
+.glass{background:linear-gradient(135deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(18px);box-shadow:inset 0 0 24px rgba(139,92,246,.08);@apply rounded-3xl}
+.blob{position:fixed;border-radius:9999px;filter:blur(90px);opacity:.35;animation:float 16s ease-in-out infinite;z-index:-1}
+@keyframes float{50%{transform:translate(60px,-40px) scale(1.15)}}
+.orb{background:radial-gradient(circle at 30% 25%,#c4b5fd,#8B5CF6 45%,#3B82F6);box-shadow:0 0 70px rgba(139,92,246,.6),inset 0 0 30px rgba(255,255,255,.35)}
+.ring{animation:ring 1.8s ease-out infinite}@keyframes ring{from{transform:scale(1);opacity:.6}to{transform:scale(1.9);opacity:0}}
+button,input,textarea,select{min-height:44px}
+:focus-visible{outline:3px solid #F59E0B;outline-offset:2px}
+.btn{@apply glass px-5 py-2 font-semibold hover:bg-white/10 transition}
+.btn-amber{@apply rounded-full bg-amber text-black px-6 py-3 font-extrabold hover:brightness-110}
+input,textarea,select{@apply bg-white/5 border border-white/15 rounded-xl px-3 text-slate-100}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/* Dropdowns: always readable, highlighted on hover/focus */
+select{color-scheme:dark;background-color:#141b3d;color:#fff;font-weight:600;border:1.5px solid rgba(255,255,255,.4);padding-right:.5rem;cursor:pointer}
+select:hover,select:focus{background-color:#202a63;border-color:#F59E0B;box-shadow:0 0 0 3px rgba(245,158,11,.25)}
+select option{background-color:#141b3d;color:#fff;padding:8px}
+select option:hover,select option:checked{background-color:#8B5CF6;color:#fff}
