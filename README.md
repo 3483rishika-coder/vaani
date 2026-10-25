@@ -72,17 +72,6 @@ Vaani is designed so it works for everyone, whether or not you have special Wisp
 
 Mode 1 is the one that makes Vaani **fully usable on Wispr Flow's free plan, with no API key and no cost.**
 
-### 🆓 Built to work on the Wispr Flow Free plan
-
-Flow Basic is free and includes about **2,000 dictated words per week** on Mac and Windows (new accounts also get a one-time bonus when they first reach the limit). That sounds small, but a spoken complaint is short:
-
-| Item | Approx. words |
-|---|---|
-| One typical spoken complaint | 40 to 60 |
-| Short follow-up or correction | 10 to 20 |
-| **Complaints you can dictate per week on the free plan** | **~35 to 50** |
-
-For a citizen filing a handful of complaints, the free plan is more than enough. Vaani deliberately keeps spoken input short and puts the heavy lifting (formal wording, structure, formatting) in software, so you don't burn your word quota.
 
 ### What Wispr Flow made possible
 
